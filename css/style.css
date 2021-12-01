@@ -5,7 +5,7 @@ html {
 
 /* Set the margin to 0 to make sure the page stretches all the way to the edge of the browser window. */
 header, footer {
-  background-color: #90daf5;
+  background-color: #0069ba;
   text-align: left;
 /*  min-width: 500px; */
 }
@@ -19,7 +19,7 @@ body {
   margin: 0;
 }
 header, footer {
-  background-color: #90daf5;
+  background-color: #0069ba;
   text-align: left;
 }
 
@@ -150,8 +150,16 @@ img {
   margin: auto;
 }
 
-footer {
-  margin-top: 44px;
+footer div {
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-content: center;
+  padding: 10px 20px;
+  color: rgba(255, 255, 255, 0.5);
+
+
 }
 
 @media all and (max-width:700px) {
