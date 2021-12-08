@@ -86,7 +86,7 @@ img {
 }
 
 .myButton:hover {
-    background-color:#e69708;
+    background-color: rgba(0,0,0,.2);
 }
 
 .myButton:active {
@@ -127,7 +127,7 @@ img {
 
 .description {
   font-family: 'Karla', serif;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 1.29;
   letter-spacing: 0.1px;
